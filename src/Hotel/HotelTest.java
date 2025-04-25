@@ -1,3 +1,5 @@
+package Hotel;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import java.time.LocalDate;
@@ -16,7 +18,7 @@ class HotelTest {
 
     @BeforeEach
     void setUp() {
-        hotel = new Hotel("Hotel Testing", "Calle Test 456");
+        hotel = new Hotel("Hotel.Hotel Testing", "Calle Test 456");
         habitacion1 = new Habitacion(101, "Simple", 100.0);
         habitacion2 = new Habitacion(102, "Doble", 150.0);
         cliente1 = new Persona("Carlos", "Ruiz", "11223344D");
@@ -28,7 +30,7 @@ class HotelTest {
 
     @Test
     void constructorAndGetters() {
-        assertEquals("Hotel Testing", hotel.getNombre());
+        assertEquals("Hotel.Hotel Testing", hotel.getNombre());
         assertEquals("Calle Test 456", hotel.getDireccion());
         assertNotNull(hotel.getHabitaciones());
         assertTrue(hotel.getHabitaciones().isEmpty());
@@ -38,8 +40,8 @@ class HotelTest {
 
     @Test
     void setNombre() {
-        hotel.setNombre("Nuevo Nombre Hotel");
-        assertEquals("Nuevo Nombre Hotel", hotel.getNombre());
+        hotel.setNombre("Nuevo Nombre Hotel.Hotel");
+        assertEquals("Nuevo Nombre Hotel.Hotel", hotel.getNombre());
     }
 
     @Test

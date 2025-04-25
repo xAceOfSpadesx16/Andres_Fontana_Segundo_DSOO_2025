@@ -1,3 +1,5 @@
+package Hotel;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import java.util.List;
@@ -16,7 +18,7 @@ class HabitacionVIPTest {
     @Test
     void constructorAndGetters() {
         assertEquals(201, habitacionVIP.getNumero());
-        assertEquals("Habitacion VIP", habitacionVIP.getTipo());
+        assertEquals("Hotel.Habitacion VIP", habitacionVIP.getTipo());
         assertEquals(300.0, habitacionVIP.getPrecio());
         assertEquals(serviciosExtra, habitacionVIP.getServiciosExtra());
     }

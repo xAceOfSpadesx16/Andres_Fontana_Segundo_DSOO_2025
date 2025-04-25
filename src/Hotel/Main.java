@@ -1,11 +1,13 @@
+package Hotel;
+
 import java.time.LocalDate;
 import java.util.List;
 
-//... (Clases Persona, Habitacion, HabitacionVIP, Pago, Reserva, Hotel - como en la respuesta anterior)
+//... (Clases Hotel.Persona, Hotel.Habitacion, Hotel.HabitacionVIP, Hotel.Pago, Hotel.Reserva, Hotel.Hotel - como en la respuesta anterior)
 
 public class Main {
     public static void main(String[] args) {
-        Hotel hotel = new Hotel("Hotel Paraiso", "Calle Principal 123");
+        Hotel hotel = new Hotel("Hotel.Hotel Paraiso", "Calle Principal 123");
 
         Habitacion habitacion1 = new Habitacion(101, "Doble", 100.0);
         HabitacionVIP habitacionVIP = new HabitacionVIP(201, 200.0, List.of("Jacuzzi", "Vista al mar"));

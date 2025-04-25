@@ -1,3 +1,5 @@
+package Hotel;
+
 public class Habitacion {
 
     private int numero;

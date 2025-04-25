@@ -1,3 +1,5 @@
+package Hotel;
+
 public class Pago {
 
     private final double costoTotal;
