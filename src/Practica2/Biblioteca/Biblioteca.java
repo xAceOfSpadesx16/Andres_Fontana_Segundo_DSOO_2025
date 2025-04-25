@@ -1,4 +1,4 @@
-package Biblioteca;
+package Practica2.Biblioteca;
 
 import java.util.ArrayList;
 import java.util.List;

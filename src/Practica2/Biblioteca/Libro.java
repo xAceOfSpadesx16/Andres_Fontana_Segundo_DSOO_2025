@@ -1,4 +1,4 @@
-package Biblioteca;
+package Practica2.Biblioteca;
 
 class Libro {
     private String titulo;

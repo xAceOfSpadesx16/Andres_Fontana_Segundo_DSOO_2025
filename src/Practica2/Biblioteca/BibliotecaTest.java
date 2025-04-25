@@ -1,4 +1,4 @@
-package Biblioteca;
+package Practica2.Biblioteca;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -21,7 +21,7 @@ class BibliotecaTest {
 
     @BeforeEach
     void setUp() {
-        this.biblioteca = new Biblioteca("Biblioteca Central", "Avenida Principal 456");
+        this.biblioteca = new Biblioteca("Practica2.Biblioteca Central", "Avenida Principal 456");
 
         Autor autor1 = new Autor("Gabriel Garcia Marquez", "Colombiano");
         Editorial editorial1 = new Editorial("Planeta", "Calle falsa 123");
@@ -38,7 +38,7 @@ class BibliotecaTest {
 
     @Test
     void constructorYGetters() {
-        assertEquals("Biblioteca Central", this.biblioteca.getNombre());
+        assertEquals("Practica2.Biblioteca Central", this.biblioteca.getNombre());
         assertEquals("Avenida Principal 456", this.biblioteca.getDireccion());
 
         assertNotNull(this.biblioteca.getLibros());
@@ -53,8 +53,8 @@ class BibliotecaTest {
 
     @Test
     void setNombre() {
-        this.biblioteca.setNombre("Biblioteca del Parque");
-        assertEquals("Biblioteca del Parque", this.biblioteca.getNombre());
+        this.biblioteca.setNombre("Practica2.Biblioteca del Parque");
+        assertEquals("Practica2.Biblioteca del Parque", this.biblioteca.getNombre());
     }
 
     @Test

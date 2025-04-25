@@ -1,4 +1,4 @@
-package Hotel;
+package Practica2.Hotel;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

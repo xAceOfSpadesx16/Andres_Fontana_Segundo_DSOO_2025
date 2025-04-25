@@ -1,4 +1,4 @@
-package Hotel;
+package Practica2.Hotel;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;

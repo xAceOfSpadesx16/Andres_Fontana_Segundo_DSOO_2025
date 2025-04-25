@@ -1,4 +1,4 @@
-package Biblioteca;
+package Practica2.Biblioteca;
 
 class LibroElectronico extends Libro {
     private String formato;

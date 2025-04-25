@@ -1,4 +1,4 @@
-package Hotel;// Hotel.ReservaTest.java
+package Practica2.Hotel;// Practica2.Hotel.ReservaTest.java
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import java.time.LocalDate;

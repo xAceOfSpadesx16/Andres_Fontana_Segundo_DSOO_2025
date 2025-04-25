@@ -1,13 +1,13 @@
-package Biblioteca;
+package Practica2.Biblioteca;
 
 import java.time.LocalDate;
 
-//... (Clases Autor, Editorial, Libro, LibroElectronico, Lector, Prestamo, Biblioteca - como en la respuesta anterior)
+//... (Clases Autor, Editorial, Libro, LibroElectronico, Lector, Prestamo, Practica2.Biblioteca - como en la respuesta anterior)
 
 public class Main {
 
     public static void main(String[] args) {
-        Biblioteca biblioteca = new Biblioteca("Biblioteca Central", "Avenida Principal 456");
+        Biblioteca biblioteca = new Biblioteca("Practica2.Biblioteca Central", "Avenida Principal 456");
 
         Autor autor1 = new Autor("Gabriel Garcia Marquez", "Colombiano");
         Editorial editorial1 = new Editorial("Planeta", "Calle falsa 123");

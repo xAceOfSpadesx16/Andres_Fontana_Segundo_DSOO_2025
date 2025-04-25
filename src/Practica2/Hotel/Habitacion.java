@@ -1,4 +1,4 @@
-package Hotel;
+package Practica2.Hotel;
 
 public class Habitacion {
 

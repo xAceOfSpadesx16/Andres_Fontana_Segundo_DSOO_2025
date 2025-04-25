@@ -1,4 +1,4 @@
-package Hotel;
+package Practica2.Hotel;
 
 import java.util.List;
 import java.util.ArrayList;
