@@ -1,4 +1,4 @@
-package ClasesAbstractas.Vehiculo;
+package Practica3.Vehiculo;
 
 public class Motocicleta extends Vehiculo {
     public Motocicleta(String modelo, String marca) {

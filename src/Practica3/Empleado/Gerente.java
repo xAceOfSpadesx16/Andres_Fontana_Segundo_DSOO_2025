@@ -1,4 +1,4 @@
-package ClasesAbstractas.Empleado;
+package Practica3.Empleado;
 
 public class Gerente extends Empleado {
 

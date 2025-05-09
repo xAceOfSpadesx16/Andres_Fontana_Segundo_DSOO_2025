@@ -1,4 +1,4 @@
-package ClasesAbstractas.Vehiculo;
+package Practica3.Vehiculo;
 
 public abstract class Vehiculo {
     protected String modelo;

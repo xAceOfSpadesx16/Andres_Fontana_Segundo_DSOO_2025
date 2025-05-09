@@ -1,4 +1,4 @@
-package ClasesAbstractas.Banco;
+package Practica3.Banco;
 
 public class BancoA extends Banco {
     // Atributo de instancia, acorde a inicializacion en Constructor.

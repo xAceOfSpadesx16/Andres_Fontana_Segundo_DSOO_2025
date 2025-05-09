@@ -1,4 +1,4 @@
-package ClasesAbstractas.Animal;
+package Practica3.Animal;
 
 public class Perro extends Animal{
 

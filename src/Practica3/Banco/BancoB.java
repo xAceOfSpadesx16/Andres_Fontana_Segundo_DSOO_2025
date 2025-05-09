@@ -1,4 +1,4 @@
-package ClasesAbstractas.Banco;
+package Practica3.Banco;
 
 public class BancoB extends Banco{
     // Intereses fijos acorde al monto, no definido como atributo.

@@ -1,4 +1,4 @@
-package ClasesAbstractas.Animal;
+package Practica3.Animal;
 
 public abstract class Animal {
     protected boolean tieneSueño;

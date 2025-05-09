@@ -1,4 +1,4 @@
-package ClasesAbstractas.Vehiculo;
+package Practica3.Vehiculo;
 
 public class Coche extends Vehiculo{
     private int cambio = 0;

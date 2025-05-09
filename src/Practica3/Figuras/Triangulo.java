@@ -1,4 +1,4 @@
-package ClasesAbstractas.Figuras;
+package Practica3.Figuras;
 
 public class Triangulo extends Figura {
     private double base;

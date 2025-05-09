@@ -1,4 +1,4 @@
-package ClasesAbstractas.Vehiculo;
+package Practica3.Vehiculo;
 
 public class Bicicleta extends Vehiculo {
     private int esfuerzoCiclista = 0;

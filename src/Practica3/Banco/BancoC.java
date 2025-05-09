@@ -1,4 +1,4 @@
-package ClasesAbstractas.Banco;
+package Practica3.Banco;
 
 public class BancoC extends Banco {
     // Interes definido como atributo de clase, inmutable.
